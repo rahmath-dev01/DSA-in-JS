@@ -71,6 +71,22 @@ let k = 10n;
 let sum = a + b;
 console.log(sum); // 9007199254741001n
 
+//Array -> array is a collection of elements, which can be any data type.
+let fruits = ["apple" , "banana" , "cherry", 22, true, null];
+console.log(fruits[3]);
+//Array is objects in js 
+console.log(typeof fruits)//object
+
+//Object -> object store data in key value pairs. Each property has name(key) and a value.
+
+let person ={
+  username: "Rahmath",
+  Rollno : 160923737077,
+  Branch : "INF"
+}
+console.log(person.Rollno);
+
+
  
 
 
