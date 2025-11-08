@@ -32,3 +32,7 @@ console.log(msg.split(""));
 
  let y = (5+10) * 2;
  console.log(y)
+
+ let username2 = prompt("whats u r name");
+ alert("Welcome "+ username2 +"!");
+ console.log(`hello ${username2},welcome to our store`);
