@@ -6,21 +6,21 @@ for(i=0;i<=10;i++){
 
 //2. print even numbers between 1 to 20
 
- let i=0;
- while(i<=20){
- if(i%2===0){
- console.log(i);
+ let j=0;
+ while(j<=20){
+ if(j%2===0){
+ console.log(j);
  }
- i++
+ j++
 }
 
 
 //3. print number from 10 to 1 using a while loop
 
-let i=10;
-while(i>=1){
-  console.log(i)
-  i--;
+let k=10;
+while(k>=1){
+  console.log(k)
+  k--;
 }
 
 //4.print odd number from 1 to 15 using while loop
@@ -80,8 +80,3 @@ for( let i=10;i>=1;i--){
 //   }
 // }
 // console.log(count);
-
-
-
-
-
