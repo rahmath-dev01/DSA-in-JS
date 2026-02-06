@@ -27,6 +27,7 @@ button{
   color: white;
   background-color: crimson;
   border: none;
+  cursor: pointer;
 }
 
 button:active{
