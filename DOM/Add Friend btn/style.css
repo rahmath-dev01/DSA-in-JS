@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: cornflowerblue ;
+
+}
+main{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#page{
+  
+  height: 600px;
+  width: 320px;
+  padding: 10px ;
+  background-color: rgb(32, 32, 32);
+  color: white;
+  border-radius: 20px;
+  
+}
+#top{
+  border-radius: 20px;
+  display: flex;
+  gap: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+}
+h1{
+  font-size: 15px;
+  font-weight: 500;
+}
+#list{
+  padding: 0 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+#instaid1{
+  display: flex;
+  align-items: center;
+  margin-right: 2px;
+  gap: 10px;
+}
+img{
+  height: 40px;
+  border-radius: 50%;
+}
+.btn{
+  margin-left: 45px;
+  padding: 6px 15px ;
+  border: none;
+  border-radius: 5px;
+  font-size: 10px;
+  color: white;
+  background-color: rgb(20, 20, 241);
+}
+.virat{
+  font-size: 10px;
+  margin-bottom: 4px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+p{
+  font-size: 7px;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.mohi{
+  height: 15px;
+  width: 15px;
+}
+#followers{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.suggestion{
+  margin-right: 40px;
+}
+i{
+  opacity: 1;
+}
