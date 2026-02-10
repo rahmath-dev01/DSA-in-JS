@@ -63,6 +63,13 @@ img{
   font-size: 10px;
   color: white;
   background-color: rgb(20, 20, 241);
+  cursor: pointer;
+}
+.btn:hover{
+  opacity: 0.9;
+}
+.btn:active{
+  scale: 0.95;
 }
 .virat{
   font-size: 10px;

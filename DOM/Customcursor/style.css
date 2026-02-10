@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  height: 300%;
+  background-color: black;
+  cursor: none;
+}
+
+#cursor{
+  position: fixed;
+  height: 40px;
+  transform: translate(-30%,-20%);
+}
