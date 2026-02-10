@@ -26,6 +26,13 @@ const users = [
         profession: "Content Creator",
         description: "Makes complex topics easy. Lives on caffeine and camera angles.",
         tags: ["Video Editing", "Education", "YouTube", "Storytelling"]
+    },
+     {
+        fullName: "Gabriel",
+        image: "https://images.unsplash.com/photo-1693008561904-4aea66aa18ca?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZGV2ZWxvcGVyJTIwbWVufGVufDB8fDB8fHww",
+        profession: "Fullstack Developer ",
+        description: "Full Stack Developer skilled in building end-to-end web applications.",
+        tags: ["Video Editing", "Education", "YouTube", "Storytelling"]
     }
 ];
 
