@@ -103,7 +103,6 @@ section {
   font-size: 20px;
 }
 
-
 .right {
   padding: 30px;
   display: flex;
@@ -126,7 +125,6 @@ section {
 .right i {
   font-size: 25px;
   font-weight: 500;
-
 }
 
 .right h6 {
@@ -153,7 +151,6 @@ section {
 .right > div h6{
   pointer-events: none;
 }
-
 
 .mute{
   background-color: #333;
