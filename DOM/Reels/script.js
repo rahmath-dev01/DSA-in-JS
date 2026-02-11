@@ -1,135 +1,160 @@
 const reels = [
   {
-    username: "tech_with_rahul",
-    likeCount: 1240,
+    ismuted: true,
+    username: "codewithayush",
+    likeCount: 14820,
     isLiked: false,
-    commentCount: 89,
-    caption: "Learning JavaScript DOM step by step 🚀",
-    video: "./videos/1.mp4",
-    userProfile: "https://images.unsplash.com/photo-1531891437562-43055c9e1b39", // portrait from Unsplash :contentReference[oaicite:0]{index=0}
-    isFollowed: true,
-    shareCount:16
+    commentCount: 423,
+    shareCount: 92,
+    isFollowed: false,
+    caption: "Dark mode > light mode. Change my mind.",
+    video: "./reels/video1.mp4",
+    userprofile: "https://images.unsplash.com/photo-1613915617430-8ab0fd7c6baf?q=80&w=930&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
-    username: "code.daily",
-    likeCount: 3421,
+    ismuted: true,
+    username: "designbysan",
+    likeCount: 9820,
     isLiked: true,
-    commentCount: 210,
-    caption: "One project a day keeps fear away 💻",
-    video: "./videos/2.mp4",
-    userProfile: "https://images.unsplash.com/photo-1544005313-94ddf0286df2", // portrait from Unsplash :contentReference[oaicite:1]{index=1}
+    commentCount: 184,
+    shareCount: 41,
     isFollowed: false,
-    shareCount:75
+    caption: "UI tip: Padding is personality. Give your elements some space.",
+    video: "./reels/video2.mp4",
+
+    userprofile: "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79"
   },
   {
-    username: "frontend.journey",
-    likeCount: 987,
+    ismuted: true,
+    username: "frontend.ninja",
+    likeCount: 22150,
     isLiked: false,
-    commentCount: 45,
-    caption: "CSS animations make UI feel alive ✨",
-    video: "./videos/3.mp4",
-    userProfile: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e", // portrait from Unsplash :contentReference[oaicite:2]{index=2}
-    isFollowed: false,
-    shareCount:25
+    commentCount: 612,
+    shareCount: 138,
+    isFollowed: true,
+    caption: "When flexbox finally aligns the way you wanted 😭🔥",
+    video: "./reels/video3.mp4",
+
+    userprofile: "https://images.unsplash.com/photo-1552374196-c4e7ffc6e126"
   },
   {
-    username: "js.mastery",
-    likeCount: 5600,
+    ismuted: true,
+    username: "travelwithriya",
+    likeCount: 54200,
+    isLiked: false,
+    commentCount: 822,
+    shareCount: 201,
+    isFollowed: false,
+    caption: "My solo Bali trip changed everything 🌴",
+    video: "./reels/video4.mp4",
+
+    userprofile: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+  },
+  {
+    ismuted: true,
+    username: "daily.dev.quotes",
+    likeCount: 3120,
     isLiked: true,
-    commentCount: 430,
-    caption: "Stop memorizing JavaScript. Start building 🔥",
-    video: "./videos/4.mp4",
-    userProfile: "https://images.unsplash.com/photo-1502767089025-6572583495b4", // portrait from Unsplash :contentReference[oaicite:3]{index=3}
+    commentCount: 102,
+    shareCount: 55,
     isFollowed: true,
-    shareCount:270
+    caption: "Code. Sleep. Repeat. That’s the cycle.",
+    video: "./reels/video5.mp4",
+
+    userprofile: "https://images.unsplash.com/photo-1599566150163-29194dcaad36"
   },
   {
-    username: "ui.ux.designs",
-    likeCount: 2210,
+    ismuted: true,
+    username: "fitnessbymegha",
+    likeCount: 27450,
     isLiked: false,
-    commentCount: 132,
-    caption: "Good design is obvious. Great design is transparent 🎨",
-    video: "./videos/5.mp4",
-    userProfile: "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c", // portrait from Unsplash :contentReference[oaicite:4]{index=4}
+    commentCount: 540,
+    shareCount: 87,
     isFollowed: true,
-    shareCount:28
+    caption: "No gym? No problem. Do this 12-min workout at home.",
+    video: "./reels/video1.mp4",
+
+    userprofile: "https://images.unsplash.com/photo-1595152772835-219674b2a8a6"
   },
   {
-    username: "coding.student",
-    likeCount: 678,
-    isLiked: false,
-    commentCount: 28,
-    caption: "Day 15 of learning JavaScript 💪",
-    video: "./videos/6.mp4",
-    userProfile: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d", // portrait from Unsplash :contentReference[oaicite:5]{index=5}
-    isFollowed: false,
-    shareCount:16
-  },
-  {
-    username: "react.dev",
-    likeCount: 8120,
+    ismuted: true,
+    username: "streetfoodlover",
+    likeCount: 68000,
     isLiked: true,
-    commentCount: 560,
-    caption: "React hooks simplified in 30 seconds ⚛️",
-    video: "./videos/7.mp4",
-    userProfile: "https://images.unsplash.com/photo-1544725176-7c40e5a2b6d5", // portrait from Unsplash :contentReference[oaicite:6]{index=6}
-    isFollowed: true,
-    shareCount:162
-  },
-  {
-    username: "web.wizard",
-    likeCount: 1540,
-    isLiked: false,
-    commentCount: 77,
-    caption: "Small UI tweaks = big UX impact 🧙‍♂️",
-     video: "./videos/8.mp4",
-    userProfile: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce", // portrait from Unsplash :contentReference[oaicite:7]{index=7}
+    commentCount: 1304,
+    shareCount: 412,
     isFollowed: false,
-    shareCount: 33
+    caption: "You won’t believe this burger exists 🤯🍔",
+    video: "./reels/video2.mp4",
+
+    userprofile: "https://images.unsplash.com/photo-1552058544-f2b08422138a"
   },
   {
-    username: "learn.to.code",
-    likeCount: 2990,
+    ismuted: true,
+    username: "musicbytara",
+    likeCount: 14500,
+    isLiked: false,
+    commentCount: 267,
+    shareCount: 73,
+    isFollowed: true,
+    caption: "Late night vibes // piano version 🎹✨",
+    video: "./reels/video3.mp4",
+
+    userprofile: "https://images.unsplash.com/photo-1502685104226-ee32379fefbe"
+  },
+  {
+    ismuted: true,
+    username: "techreviews101",
+    likeCount: 23180,
     isLiked: true,
-    commentCount: 198,
-    caption: "Consistency beats motivation every time ⏳",
-    video: "./videos/9.mp4",
-    userProfile: "https://images.unsplash.com/photo-1520813792240-56fc4a3765a7", // portrait from Unsplash :contentReference[oaicite:8]{index=8}
-    isFollowed: true,
-    shareCount:98
+    commentCount: 481,
+    shareCount: 120,
+    isFollowed: false,
+    caption: "The most underrated smartphone of 2024 📱",
+    video: "./reels/video4.mp4",
+
+    userprofile: "https://images.unsplash.com/photo-1511367461989-f85a21fda167"
   },
   {
-    username: "dev.mindset",
-    likeCount: 4300,
+    ismuted: true,
+    username: "learnanimations",
+    likeCount: 18740,
     isLiked: false,
-    commentCount: 320,
-    caption: "Think like a developer, not a tutorial follower 🧠",
-    video: "./videos/10.mp4",
-    userProfile: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde", // portrait from Unsplash :contentReference[oaicite:9]{index=9}
-    isFollowed: false,
-    shareCount: 67
+    commentCount: 350,
+    shareCount: 92,
+    isFollowed: true,
+    caption: "GSAP can literally change your career. Start today.",
+    video: "./reels/video1.mp4",
+
+    userprofile: "https://images.unsplash.com/photo-1494790108377-be9c29b29330"
   }
 ];
+var allReels = document.querySelector('.all-reels')
 
 
-
-var sum = ''
-reels.forEach(function (elem) {
+function addData() {
+  var sum = ''
+  reels.forEach(function (elem, idx) {
     sum = sum + `<div class="reel">
-          <video autoplay loop muted src="${elem.video}"></video>
+          <video autoplay loop ${elem.ismuted ? 'muted' : ''} src="${elem.video}"></video>
+          <div class="mute" id=${idx}>
+          ${elem.ismuted?'<i class="ri-volume-mute-fill"></i>':'<i class="ri-volume-up-line"></i>'}
+      
+    </div>
           <div class="bottom">
             <div class="user">
               <img
-                src="${elem.userProfile}"
+                src="${elem.userprofile}"
                 alt="">
-              <h4>${elem.username}</h4>
-              <button>${elem.isFollowed?'Unfollow':'Follow'}</button>
+              <hismuted:true,4>${elem.
+        username}</h4>
+              <button id=${idx} class='follow'>${elem.isFollowed ? 'Unfollow' : 'Follow'}</button>
             </div>
             <h3>${elem.caption}</h3>
           </div>
           <div class="right">
-            <div class="like">
-              <h4 class="like-icon icon">${elem.isLiked?'<i class="love ri-heart-3-fill"></i>':'<i class="ri-heart-3-line"></i>'}</h4>
+            <div id=${idx} class="like">
+              <h4 class="like-icon icon">${elem.isLiked ? '<i class="love ri-heart-3-fill"></i>' : '<i class="ri-heart-3-line"></i>'}</h4>
               <h6>${elem.likeCount}</h6>
             </div>
             <div class="comment">
@@ -145,9 +170,47 @@ reels.forEach(function (elem) {
             </div>
           </div>
         </div>`
+  })
+
+  allReels.innerHTML = sum
+}
+
+addData()
+
+
+allReels.addEventListener('click', function (dets) {
+
+  if (dets.target.className == 'like') {
+    if (!reels[dets.target.id].isLiked) {
+      reels[dets.target.id].likeCount++
+      reels[dets.target.id].isLiked = true
+    } else {
+      reels[dets.target.id].likeCount--
+      reels[dets.target.id].isLiked = false
+    }
+
+    addData()
+  }
+  if (dets.target.className == 'follow') {
+    if (!reels[dets.target.id].isFollowed) {
+      reels[dets.target.id].isFollowed = true
+    } else {
+      reels[dets.target.id].isFollowed = false
+    }
+
+    addData()
+  }
+
+ if (dets.target.className == 'mute') {
+    if (!reels[dets.target.id].ismuted) {
+      reels[dets.target.id].ismuted = true
+    } else {
+      reels[dets.target.id].ismuted = false
+    }
+    addData()
+    
+
+
+  }
+
 })
-
-
-var allReels = document.querySelector('.all-reels')
-
-allReels.innerHTML = sum
