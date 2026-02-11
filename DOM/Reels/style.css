@@ -84,11 +84,6 @@ section {
   object-fit: cover;
 }
 
-.bottom .user h4 {
-  font-size: 15px;
-  font-weight: 500;
-}
-
 .bottom .user button {
   background-color: transparent;
   padding: 2px 4px;
@@ -97,6 +92,13 @@ section {
   border-radius: 2px;
   border: 1px solid white;
 }
+
+.bottom .user h4 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+
 
 .bottom > h3 {
   font-weight: 500;

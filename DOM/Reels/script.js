@@ -174,8 +174,8 @@ function addData() {
 
   allReels.innerHTML = sum
 }
-
 addData()
+
 
 
 allReels.addEventListener('click', function (dets) {
