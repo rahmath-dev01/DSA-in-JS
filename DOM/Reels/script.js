@@ -1,3 +1,5 @@
+
+
 const reels = [
   {
     ismuted: true,
@@ -132,6 +134,7 @@ const reels = [
 var allReels = document.querySelector('.all-reels')
 
 
+
 function addData() {
   var sum = ''
   reels.forEach(function (elem, idx) {
@@ -175,6 +178,7 @@ function addData() {
   allReels.innerHTML = sum
 }
 addData()
+
 
 
 
