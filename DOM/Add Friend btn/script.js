@@ -6,7 +6,7 @@ buttons.forEach(function(btn) {
 
     if (btn.innerHTML === 'Follow') {
       btn.style.color = 'black';
-      btn.style.backgroundColor = 'lightgray';
+      btn.style.backgroundColor = 'gray';
       btn.innerHTML = 'Following';
      
     } 
