@@ -14,7 +14,7 @@ let iteration =0
   }).join("")
 
   para.innerText = str
-  iteration += 0.25
+  iteration += 0.50
 }
 setInterval(randomtext , 30)
 
