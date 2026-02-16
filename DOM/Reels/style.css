@@ -115,10 +115,8 @@ section {
   width: 40px;
   position: absolute;
   right: 0;
-  /* height: 100%; */
-  /* transform: translateX(100%); */
-  bottom: 12%;
-  /* background: linear-gradient(to right, transparent,rgba(0, 0, 0, 0.284)); */
+  bottom: 11%;
+ 
 }
 
 .right h4{
