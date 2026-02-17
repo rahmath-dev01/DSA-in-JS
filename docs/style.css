@@ -26,7 +26,7 @@ main {
 section {
   height: 100%;
   width: 100%;
-  max-width: 350px;
+  max-width: 23rem;
   background-color: black;
   border-radius: 10px;
   margin: auto;
@@ -87,11 +87,13 @@ section {
 
 .bottom .user button {
   background-color: transparent;
-  padding: 2px 4px;
+  padding: 3px 5px;
   font-size: 12px;
   font-weight: 500;
-  border-radius: 2px;
+  border-radius: 3px;
   border: 1px solid white;
+  font-weight: 200;
+  cursor: pointer;
 }
 
 .bottom .user h4 {
