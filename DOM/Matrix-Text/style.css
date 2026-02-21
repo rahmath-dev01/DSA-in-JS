@@ -21,9 +21,9 @@ p{
   --y : 400px
 }
 
-#box{
+.box{
   position: absolute;
   height: 100%;
   width: 100%;
-  background: radial-gradient( 150px at var(--x) var(--y), rgba(255, 255, 255, 0)10%,rgb(0, 0, 0)90%)
+  background-color: black;
 }

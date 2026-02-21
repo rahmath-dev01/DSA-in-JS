@@ -1,6 +1,7 @@
 const para = document.querySelector('p')
 const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 const txt = para.innerHTML
+const box = document.querySelector('.box')
 
 let iteration =0
 
