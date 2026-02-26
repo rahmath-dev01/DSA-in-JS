@@ -27,6 +27,7 @@ div{
   width: 200px;
   border-radius: 50%;
   border: 5px solid rgb(0, 68, 0);
+  box-shadow:  0 0 600px rgb(221, 182, 182);
   
 }
 button{
