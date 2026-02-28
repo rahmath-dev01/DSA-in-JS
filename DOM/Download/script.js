@@ -16,7 +16,7 @@ btn.addEventListener('click',function(){
     clearInterval(int)
     btn.innerText= 'Downloaded'
     btn.style.opacity = 0.5
-    console.log('downloaded in',num/10 , 'seconds')
+    console.log('downloaded in',num/10 , 'seconds') 
     
   }, num*100);
 })
