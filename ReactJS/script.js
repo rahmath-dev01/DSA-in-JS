@@ -1,5 +1,4 @@
-import app from "./test.js"
+import {age} from "./arr.js"
 
-let root = ReactDOM.createRoot(document.querySelector('#container'))
+console.log(age);
 
-root.render(app())
